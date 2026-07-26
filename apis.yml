@@ -1,19 +1,49 @@
 aid: dylibso
 name: Dylibso
-description: Dylibso is a company surfaced as a portfolio company of felicis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Dylibso, Inc. is the company behind Extism, the open-source, cross-language
+  framework for building with WebAssembly (Wasm). Its focus is AI-driven
+  application extensibility: giving developers an off-the-shelf, secure-by-default,
+  fully sandboxed plug-in system that is "just a library import away" and runs
+  almost anywhere, with idiomatic Host SDKs for JavaScript, Python, Rust, Ruby,
+  Go, .NET, PHP, Java, C/C++, OCaml, Haskell, Perl, and Zig. Beyond Extism,
+  Dylibso builds Chicory (a native pure-JVM WebAssembly runtime) and Turbo MCP
+  (formerly mcp.run / XTP), a standards-compliant, self-hosted Model Context
+  Protocol gateway and management platform with OIDC identity integration and
+  audit controls. Dylibso is backed by Felicis.
 url: https://raw.githubusercontent.com/api-evangelist/dylibso/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/109687654?v=4
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - felicis
-x-tier: stub
+x-tier: enriched
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- WebAssembly
+- Wasm
+- Extensibility
+- Plug-ins
+- Developer Tools
+- SDKs
+- Model Context Protocol
+- Open Source
+- AI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,38 @@ maintainers:
 common:
 - type: Website
   url: https://dylibso.ai
+- type: DeveloperPortal
+  url: https://extism.org
+- type: Documentation
+  url: https://extism.org/docs/overview
+- type: GettingStarted
+  url: https://extism.org/docs/category/quickstart
+- type: Blog
+  url: https://extism.org/blog
+- type: BlogRSS
+  url: https://extism.org/blog/rss.xml
+- type: GitHubOrganization
+  url: https://github.com/dylibso
+- type: SourceCode
+  url: https://github.com/extism/extism
+- type: Support
+  url: https://github.com/extism/extism/discussions
+- type: Community
+  url: https://discord.gg/cx3usBCWnc
+- type: Sandbox
+  url: https://playground.extism.org
+- type: Packages
+  url: packages/dylibso-packages.yml
+- type: SDKs
+  url: packages/dylibso-packages.yml
+- type: ChangeLog
+  url: changelog/dylibso-changelog.yml
+- type: LLMsTxt
+  url: llms/dylibso-llms.txt
+- type: DomainSecurity
+  url: security/dylibso-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

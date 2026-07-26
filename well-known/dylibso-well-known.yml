@@ -1,0 +1,35 @@
+generated: '2026-07-18'
+method: searched
+host: https://dylibso.ai
+note: >-
+  Probed the standard /.well-known/ discovery surface plus /llms.txt on the
+  primary host on 2026-07-18. Every path returns HTTP 200 but with
+  content-type text/html and the site's SPA OG shell ("Pioneering AI-driven App
+  Extensibility") rather than a real discovery document — i.e. a soft-200 catch
+  from the Cloudflare/Framer front end. No genuine well-known artifact is
+  published, so none were saved verbatim.
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  real: false
+  content_type: text/html
+- path: /.well-known/openid-configuration
+  status: 200
+  real: false
+  content_type: text/html
+- path: /.well-known/oauth-authorization-server
+  status: 200
+  real: false
+  content_type: text/html
+- path: /.well-known/api-catalog
+  status: 200
+  real: false
+  content_type: text/html
+- path: /.well-known/ai-plugin.json
+  status: 200
+  real: false
+  content_type: text/html
+- path: /llms.txt
+  status: 200
+  real: false
+  content_type: text/html

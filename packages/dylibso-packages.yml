@@ -1,0 +1,99 @@
+generated: '2026-07-18'
+method: searched
+source: https://extism.org/docs/overview + public package registries
+note: >-
+  Dylibso maintains the open-source Extism WebAssembly framework. These are the
+  first-party Extism Host SDKs (embed a Wasm plug-in engine into a host program).
+  Verified live against each registry on 2026-07-18.
+packages:
+- language: javascript
+  registry: npm
+  name: '@extism/extism'
+  url: https://www.npmjs.com/package/@extism/extism
+  install: npm install @extism/extism
+  source: https://github.com/extism/js-sdk
+  official: true
+- language: python
+  registry: pypi
+  name: extism
+  url: https://pypi.org/project/extism/
+  install: pip install extism
+  source: https://github.com/extism/python-sdk
+  official: true
+- language: rust
+  registry: crates.io
+  name: extism
+  url: https://crates.io/crates/extism
+  install: cargo add extism
+  source: https://github.com/extism/extism
+  official: true
+- language: ruby
+  registry: rubygems
+  name: extism
+  url: https://rubygems.org/gems/extism
+  install: gem install extism
+  source: https://github.com/extism/ruby-sdk
+  official: true
+- language: dotnet
+  registry: nuget
+  name: Extism.Sdk
+  url: https://www.nuget.org/packages/Extism.Sdk
+  install: dotnet add package Extism.Sdk
+  source: https://github.com/extism/dotnet-sdk
+  official: true
+- language: go
+  registry: pkg.go.dev
+  name: github.com/extism/go-sdk
+  url: https://pkg.go.dev/github.com/extism/go-sdk
+  install: go get github.com/extism/go-sdk
+  source: https://github.com/extism/go-sdk
+  official: true
+- language: php
+  registry: packagist
+  name: extism/extism
+  url: https://packagist.org/packages/extism/extism
+  install: composer require extism/extism
+  source: https://github.com/extism/php-sdk
+  official: true
+- language: java
+  registry: maven-central
+  name: org.extism.sdk:extism
+  url: https://central.sonatype.com/artifact/org.extism.sdk/extism
+  source: https://github.com/extism/java-sdk
+  official: true
+- language: elixir
+  registry: hex
+  name: extism
+  url: https://hex.pm/packages/extism
+  source: https://github.com/extism/elixir-sdk
+  official: true
+- language: cpp
+  registry: github
+  name: extism-cpp
+  url: https://github.com/extism/cpp-sdk
+  source: https://github.com/extism/cpp-sdk
+  official: true
+- language: ocaml
+  registry: opam
+  name: extism
+  url: https://github.com/extism/ocaml-sdk
+  source: https://github.com/extism/ocaml-sdk
+  official: true
+- language: haskell
+  registry: github
+  name: extism-haskell
+  url: https://github.com/extism/haskell-sdk
+  source: https://github.com/extism/haskell-sdk
+  official: true
+- language: perl
+  registry: github
+  name: extism-perl
+  url: https://github.com/extism/perl-sdk
+  source: https://github.com/extism/perl-sdk
+  official: true
+- language: zig
+  registry: github
+  name: extism-zig
+  url: https://github.com/extism/zig-sdk
+  source: https://github.com/extism/zig-sdk
+  official: true
